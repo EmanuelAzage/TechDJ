@@ -26,8 +26,9 @@ class UserTypeSelectionVC: UIViewController {
         //add to database this user is a host
         DatabaseManagerSingleton.setUserToHost()
         
-        //set up audio player so it is ready later
-        SpotifyPlayerManagerSingleton.setUp()
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "spotifyVC") as? SpotifyLoginVC
+        self.present(nextViewController!, animated:true, completion:nil)
     }
 
     @IBAction func ContributerClicked(_ sender: Any) {

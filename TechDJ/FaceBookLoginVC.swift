@@ -45,7 +45,7 @@ class FacebookLoginVC: UIViewController, FBSDKLoginButtonDelegate {
             DatabaseManagerSingleton.userDidLogin()
             
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "spotifyVC") as? SpotifyLoginVC
+            weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "userTypeSelectionVC") as? UserTypeSelectionVC
             self.present(nextViewController!, animated:true, completion:nil)
         }
     }

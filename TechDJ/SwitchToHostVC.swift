@@ -46,12 +46,9 @@ class SwitchToHostVC: UIViewController, FBSDKLoginButtonDelegate {
         // update database
         DatabaseManagerSingleton.setUserToHost()
         
-        //get the spotify player ready
-        SpotifyPlayerManagerSingleton.setUp()
-        
         //go to host tab bar
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "hostTabBar") as? UITabBarController
+        weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "spotifyVC") as? SpotifyLoginVC
         self.present(nextViewController!, animated:true, completion:nil)
     }
 

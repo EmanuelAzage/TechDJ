@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BE6AFB1BD37DD4D542E07EEDE8E54974C0D31617",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE6AFB1BD37DD4D542E07EEDE8E54974C0D31617" : 9223372036854775807,
+    "BACFFE9F9B0D56399F821DF1A2204C2BABBAE798" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0F7D230F-AA84-4C90-958B-504C93025388",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE6AFB1BD37DD4D542E07EEDE8E54974C0D31617" : "TechDJ\/",
+    "BACFFE9F9B0D56399F821DF1A2204C2BABBAE798" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TechDJ",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TechDJ.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/download.eclipse.org\/egit\/github\/updates\/",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BACFFE9F9B0D56399F821DF1A2204C2BABBAE798"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EmanuelAzage\/TechDJ.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE6AFB1BD37DD4D542E07EEDE8E54974C0D31617"
+    }
+  ]
+}

@@ -51,8 +51,11 @@ class SpotifyLoginVC : UIViewController {
             }
         }
         
+        //set up audio player so it is ready later
+        SpotifyPlayerManagerSingleton.setUp()
+        
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "userTypeSelectionVC") as? UserTypeSelectionVC
+        weak var nextViewController = storyBoard.instantiateViewController(withIdentifier: "hostTabBar") as? UITabBarController
         self.present(nextViewController!, animated:true, completion:nil)
     }
     
