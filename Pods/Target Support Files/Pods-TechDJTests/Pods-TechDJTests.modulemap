@@ -1,0 +1,6 @@
+framework module Pods_TechDJTests {
+  umbrella header "Pods-TechDJTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
